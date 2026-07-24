@@ -15,6 +15,12 @@
 | :-------- | :----------------------------------------------------------------------- |
 | JuiceShop | https://github.com/yefimbas/CS-practice/blob/main/JuiceShop/JuiceShop.md |
 
+## DeathNote
+
+| Task      | URL                                                                      |
+| :-------- | :----------------------------------------------------------------------- |
+| DeathNote | https://github.com/yefimbas/CS-practice/blob/main/DeathNote/DeathNote.md |
+
 ## C0lddBox
 
 | Task     | URL                                                                    |
