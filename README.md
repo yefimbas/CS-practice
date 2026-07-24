@@ -14,3 +14,9 @@
 | Task      | URL                                                                      |
 | :-------- | :----------------------------------------------------------------------- |
 | JuiceShop | https://github.com/yefimbas/CS-practice/blob/main/JuiceShop/JuiceShop.md |
+
+## C0lddBox
+
+| Task     | URL                                                                    |
+| :------- | :--------------------------------------------------------------------- |
+| C0lddBox | https://github.com/yefimbas/CS-practice/blob/main/C0lddBox/C0lddBox.md |
