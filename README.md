@@ -26,3 +26,9 @@
 | Task     | URL                                                                    |
 | :------- | :--------------------------------------------------------------------- |
 | C0lddBox | https://github.com/yefimbas/CS-practice/blob/main/C0lddBox/C0lddBox.md |
+
+## Suricata
+
+| Task     | URL                                                                    |
+| :------- | :--------------------------------------------------------------------- |
+| Suricata | https://github.com/yefimbas/CS-practice/blob/main/Suricata/Suricata.md |
