@@ -21,7 +21,7 @@ sudo suricata --build-info
 sudo systemctl status suricata
 ```
 
-# Step 3: Customize configuration.
+## Step 3: Customize configuration.
 
 ![](Screenshot_2026-07-27_23-09-31.png)
 
@@ -40,11 +40,11 @@ af-packet:
 	  tpacket-v3: yes
 ```
 
-# Step 4: Installing Suricata signatures
+## Step 4: Installing Suricata signatures
 
 ![](Screenshot_2026-07-27_23-14-16.png)
 
-# Step 5: Running Suricata.
+## Step 5: Running Suricata.
 
 ![](Screenshot_2026-07-27_23-15-52.png)
 
@@ -56,7 +56,7 @@ sudo tail /var/log/suricata/suricata.log
 sudo tail -f /var/log/suricata/stats.log
 ```
 
-# Step 6: Alerting with Suricata signature.
+## Step 6: Alerting with Suricata signature.
 
 ![](Screenshot_2026-07-27_23-19-01.png)
 
@@ -69,7 +69,7 @@ sudo tail -f /var/log/suricata/fast.log
 curl http://testmynids.org/uid/index.html
 ```
 
-# Step 7: EVE JSON Suricata logs format.
+## Step 7: EVE JSON Suricata logs format.
 
 ![](Screenshot_2026-07-27_23-21-32.png)
 
@@ -82,7 +82,7 @@ sudo tail -f /var/log/suricata/eve.json | jq 'select(.event_type=="stats")'
 sudo tail -f /var/log/suricata/eve.json | jq 'select(.event_type=="alert")'
 ```
 
-# Step 8: Suricata rules format.
+## Step 8: Suricata rules format.
 
 Rule:
 
@@ -90,7 +90,7 @@ Rule:
 alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"HTTP GET Request Containing Rule in URI"; flow:established,to_server; http.method; content:"GET"; http.uri; content:"rule"; fast_pattern; classtype:bad-unknown; sid:123; rev:1;)
 ```
 
-# Step 9:Suricata local rules creation and configuring suricata.yaml.
+## Step 9:Suricata local rules creation and configuring suricata.yaml.
 
 ![](Screenshot_2026-07-27_23-26-31.png)
 
@@ -116,7 +116,7 @@ alert http any any -> any any (msg: "do not read gossip during work"; flow: to_c
 alert icmp any any -> any any (msg: "finally pinged"; sid: 10002; rev: 1;)
 ```
 
-# Step 10: Suricata local rules management.
+## Step 10: Suricata local rules management.
 
 ![](Screenshot_2026-07-27_23-29-29.png)
 
@@ -126,7 +126,7 @@ Command:
 suricata -c /etc/suricata/suricata.yaml -i enp0s3 -v
 ```
 
-# Step 11: Suricata local rules in action.
+## Step 11: Suricata local rules in action.
 
 ![](Screenshot_2026-07-27_23-33-31.png)
 ![](Screenshot_2026-07-27_23-33-54.png)
