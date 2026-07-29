@@ -2,12 +2,9 @@
 
 ## WebGoat
 
-| Task                | URL                                                                                                             |
-| :------------------ | :-------------------------------------------------------------------------------------------------------------- |
-| Hijacksession       | https://github.com/yefimbas/CS-practice/blob/main/WebGoat/Hijacksession/A01BrokenAccessControl_Hijacksession.md |
-| IDOR                | https://github.com/yefimbas/CS-practice/blob/main/WebGoat/IDOR/A01BrokenAccessControl_IDOR.md                   |
-| SQLInjection(Intro) | https://github.com/yefimbas/CS-practice/blob/main/WebGoat/SQLInjection(Intro)/A03Injection_SQLI(intro).md       |
-| XSS                 | https://github.com/yefimbas/CS-practice/blob/main/WebGoat/XSS/A03Injection_XSS.md                               |
+| Task    | URL                                                                            |
+| :------ | :----------------------------------------------------------------------------- |
+| WebGoat | https://github.com/yefimbas/CS-practice/blob/main/WebGoat/All_tasks/WebGoat.md |
 
 ## JuiceShop
 
