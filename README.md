@@ -29,3 +29,9 @@
 | Task     | URL                                                                    |
 | :------- | :--------------------------------------------------------------------- |
 | Suricata | https://github.com/yefimbas/CS-practice/blob/main/Suricata/Suricata.md |
+
+## Splunk
+
+| Task   | URL                                                                |
+| :----- | :----------------------------------------------------------------- |
+| Splunk | https://github.com/yefimbas/CS-practice/blob/main/Splunk/Splunk.md |
